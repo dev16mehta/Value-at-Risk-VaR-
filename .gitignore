@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+sdist/
+eggs/
+lib/
+lib64/
+parts/
+share/
+include/
+bin/
+
+# IDE configuration files
+.vscode/    # For Visual Studio Code
+
+echo ".DS_Store" >> .gitignore
+.DS_Store.DS_Store
